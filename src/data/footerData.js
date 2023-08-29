@@ -1,0 +1,40 @@
+export const footerdata = [
+  {
+    id: 1,
+    title: "ABOUT ZOMATO",
+    h1: "Who We Are",
+    h2: "Blog",
+    h3: "Work With Us",
+    h4: "Investor Relations",
+    h5: "Report Fraud",
+    h6: "Contact Us",
+  },
+  {
+    id: 2,
+    title: "ZOMAVERSE",
+    h1: "Zomato",
+    h2: "Blinkit",
+    h3: "Feeding India",
+    h4: "Hyperpure",
+    h5: "Zomaland",
+  },
+  {
+    id: 3,
+    title: "FOR RESTAURANTS",
+    h1: "Partner With Us",
+    h2: "App For You",
+  },
+  {
+    id: 4,
+    title: "FOR ENTERPRISES",
+    h1: "Zomato for Enterprise",
+  },
+  {
+    id: 5,
+    title: "LEARN MORE",
+    h1: "Privacy",
+    h2: "Security",
+    h3: "Terms",
+    h4: "Sitemap",
+  },
+];
