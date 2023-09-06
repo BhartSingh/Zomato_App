@@ -4,21 +4,23 @@ import { Link } from "react-router-dom";
 
 const FilterCard = () => {
   return (
-    <div className="bg-black/70 h-[821px]">
-      <div className="mx-[450px] pt-40">
-        <div className=" shadow-lg  bg-white w-[700px] h-[520px] rounded-lg">
+    <div className="bg-black/70 h-[920px]">
+      <div className="lg:mx-[450px] pt-40">
+        <div className=" shadow-lg  bg-white lg:w-[700px] lg:h-[520px] w-full rounded-lg">
           <div className="flex pt-4 ">
             <h1 className="text-3xl font-bold mx-5">Filters</h1>
-            <div className="mx-[535px] my-1">
+            <div className="lg:mx-[535px] mx-60 sm:mx-[500px] md:mx-[600px] my-1">
               <Link to="/">
                 <RiCloseLine size={30} />
               </Link>
             </div>
           </div>
-          <p className=" text-gray-500 my-3">
-            _______________________________________________________________________________________
-          </p>
-          <div className=" flex text-xl">
+          <div className="lg:ml-6  pt-5 ">
+            <button className="w-full h-12 rounded-md text-gray-300">
+              _________________________________________________
+            </button>
+          </div>
+          <div className=" flex sm:text-xl text-lg">
             <div className=" shadow-sm w-48 cursor-pointer ">
               <div className="my-5 mx-6">
                 <h1 className="text-gray-500 font-bold">Sort by</h1>
@@ -35,15 +37,15 @@ const FilterCard = () => {
                 </h5>
               </div>
             </div>
-            <div className="mx-3">
-              <ul className=" h-[340px] md:text-xl">
+            <div className="sm:mx-3">
+              <ul className=" h-[340px] sm:text-xl text-lg">
                 <div className="flex pt-5">
                   <li className="pt-2 text-xl ">
                     <input
                       type="radio"
                       name="listGroupRadio"
                       id="firstRadio"
-                      className="w-5 h-5 mx-5"
+                      className="w-5 h-5 sm:mx-5 mx-2"
                     />
                     <label htmlFor="firstRadio">Popularity</label>
                   </li>
@@ -53,7 +55,7 @@ const FilterCard = () => {
                     type="radio"
                     name="listGroupRadio"
                     id="secondRadio"
-                    className="w-5 h-5 mx-5 "
+                    className="w-5 h-5 sm:mx-5 mx-2 "
                   />
                   <label htmlFor="secondRadio">Rating: High to Low</label>
                 </li>
@@ -62,7 +64,7 @@ const FilterCard = () => {
                     type="radio"
                     name="listGroupRadio"
                     id="thirdRadio"
-                    className="w-5 h-5 mx-5 "
+                    className="w-5 h-5 sm:mx-5 mx-2 "
                   />
                   <label for="thirdRadio">Delivery Time</label>
                 </li>
@@ -71,7 +73,7 @@ const FilterCard = () => {
                     type="radio"
                     name="listGroupRadio"
                     id="secondRadio"
-                    className="w-5 h-5 mx-5"
+                    className="w-5 h-5 sm:mx-5 mx-2"
                   />
                   <label htmlFor="secondRadio">Cost: Low to High</label>
                 </li>
@@ -80,7 +82,7 @@ const FilterCard = () => {
                     type="radio"
                     name="listGroupRadio"
                     id="secondRadio"
-                    className="w-5 h-5 mx-5"
+                    className="w-5 h-5 sm:mx-5 mx-2"
                   />
                   <label htmlFor="secondRadio">Cost: High to Low</label>
                 </li>
@@ -90,7 +92,7 @@ const FilterCard = () => {
           </div>
           <div>
             <hr />
-            <div className="my-5 pl-[480px]">
+            <div className="my-1 lg:pl-[480px] pl-48">
               <Link to="/">
                 <button className="bg-gray-100 h-10 w-24 hover:bg-gray-300 rounded-lg ">
                   Clear all

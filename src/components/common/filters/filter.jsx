@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 
 const Filter = () => {
   return (
-    <div className="mx-64 ">
-      <div className=" flex mx-3 my-7 cursor-pointer ">
+    <div className="lg:mx-64 ">
+      <div className=" flex sm:mx-3 my-7 cursor-pointer ">
         <div className="p-3 ">
           <div className="bg-white text-gray-500 hover:bg-gray-50 border-solid border-2 border-gray-300 h-7 w-full rounded-md flex ">
             <img

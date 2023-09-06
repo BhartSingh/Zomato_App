@@ -5,6 +5,7 @@ import Brand from "./deliveryCollection/deliveryItems/Brand";
 import ExploreSection from "../common/exploreSection/explore";
 import ExploreOption from "../common/exploreOption/exploreOption";
 import Footer from "../common/footer/footer";
+// import DeliveryExplore from "./deliveryCollection/deliveryExplore/deliveryExplore";
 
 const Delivery = () => {
   return (
@@ -13,6 +14,7 @@ const Delivery = () => {
         <Filter />
         <DeliveryItem />
         <Brand />
+        {/* <DeliveryExplore /> */}
         <ExploreSection collectionName="Delivery Restaurants in Gurugram" />
         <ExploreOption />
         <Footer />

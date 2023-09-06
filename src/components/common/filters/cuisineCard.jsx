@@ -7,7 +7,7 @@ import { cuisineCards } from "../../../data/cuisineCard";
 const CuisineCard = () => {
   return (
     <div className="bg-black/70 h-[821px]">
-      <div className="mx-[450px] pt-40">
+      <div className="lg:mx-[450px] pt-40">
         <div className=" shadow-lg  bg-white w-[500px] h-[520px] rounded-lg">
           <div className="flex pt-4 ">
             <h1 className="text-3xl font-bold mx-5">Cuisines</h1>

@@ -2,7 +2,7 @@ import React from "react";
 import { RiCloseLine } from "react-icons/ri";
 import { Link } from "react-router-dom";
 
-const DiningFilterCard = () => {
+const NightFilterCard = () => {
   return (
     <div className="bg-black/70 h-[920px]">
       <div className="lg:mx-[450px] pt-40">
@@ -10,7 +10,7 @@ const DiningFilterCard = () => {
           <div className="flex pt-4 ">
             <h1 className="text-3xl font-bold mx-5">Filters</h1>
             <div className="lg:mx-[535px] mx-60 sm:mx-[500px] md:mx-[600px] my-1">
-              <Link to="/dining">
+              <Link to="/night">
                 <RiCloseLine size={30} />
               </Link>
             </div>
@@ -93,12 +93,12 @@ const DiningFilterCard = () => {
           <div>
             <hr />
             <div className="my-1 lg:pl-[480px] pl-48">
-              <Link to="/dining">
+              <Link to="/night">
                 <button className="bg-gray-100 h-10 w-24 hover:bg-gray-300 rounded-lg ">
                   Clear all
                 </button>
               </Link>
-              <Link to="/dining">
+              <Link to="/night">
                 <button className="bg-red-500 hover:bg-red-600 text-white h-10 w-24 rounded-lg mx-3">
                   Apply
                 </button>
@@ -111,4 +111,4 @@ const DiningFilterCard = () => {
   );
 };
 
-export default DiningFilterCard;
+export default NightFilterCard;

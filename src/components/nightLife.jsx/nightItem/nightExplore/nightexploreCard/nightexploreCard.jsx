@@ -6,7 +6,7 @@ const NightexploreCard = () => {
     <>
       {nightCards.map((item) => {
         return (
-          <div className="p-5 ">
+          <div className="p-2 ">
             <div className=" hover:shadow-2xl h-[360px] w-[375px] rounded-xl">
               <div className=" my-5 mx-3 cursor-pointer">
                 <div>
@@ -16,7 +16,7 @@ const NightexploreCard = () => {
                     className="h-60 w-full rounded-2xl my-3 "
                   />
                 </div>
-                <div className="top-[1290px] absolute flex">
+                {/* <div className="top-[1290px] absolute flex">
                   <img
                     src="https://b.zmtcdn.com/data/o2_assets/9b1ff9e19b7fadea6c6a57e081a1f5ac1687776279.png"
                     alt=""
@@ -25,7 +25,7 @@ const NightexploreCard = () => {
                   <span className="text-amber-600 w-40 pl-9 bg-black ">
                     {item.flat}
                   </span>
-                </div>
+                </div> */}
 
                 <div className="flex">
                   <h1>{item.title} </h1>

@@ -24,7 +24,7 @@ export const diningItems = [
     id: 4,
     title: "Dining Out",
     image:
-      "https://images.pexels.com/photos/2901215/pexels-photo-2901215.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/1581384/pexels-photo-1581384.jpeg?auto=compress&cs=tinysrgb&w=600",
     places: "12 Place",
   },
 ];

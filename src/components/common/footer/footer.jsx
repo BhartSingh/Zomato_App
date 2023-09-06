@@ -6,26 +6,25 @@ import {
   AiFillYoutube,
   AiFillInstagram,
 } from "react-icons/ai";
-// import { BiCurrentLocation } from "react-icons/bi";
-// import { RiCloseLine } from "react-icons/ri";
+
 import { ImLinkedin } from "react-icons/im";
 import { BsFacebook } from "react-icons/bs";
 
 const Footer = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div className=" mx-0">
-      <div className=" bg-gray-200  w-[1685px]  ">
-        <div className="mx-20 ">
+    <div className=" ">
+      <div className=" bg-gray-200 h-full  w-full">
+        <div className="lg:mx-20 ">
           <div className="flex  ">
-            <div className="pr-20 ">
+            <div className="lg:pr-20  ">
               <img
-                className=" h-7 mx-10  my-10"
+                className=" h-7 lg:mx-10 mx-2  my-10"
                 src="https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png"
                 alt="Zomato-logo"
               />
             </div>
-            <div className="flex pl-[750px]   my-10">
+            <div className="flex lg:pl-[750px]  pl-10  my-10">
               <button
                 className="flex mx-2  text-gray-400 border-solid border-2 border-gray-300 rounded-md  h-9"
                 onClick={() => setIsOpen((prev) => !prev)}
@@ -67,7 +66,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="mx-10">
-            <div className="grid grid-cols-5  cursor-pointer   ">
+            <div className="grid grid-cols-2 sm:grid-cols-3 md-grid-cols-4 lg:grid-cols-5  cursor-pointer   ">
               <div className=" block">
                 <h2 className="font-bold  my-4">ABOUT ZOMATO</h2>
                 <div className="text-gray-500 ">
@@ -122,7 +121,7 @@ const Footer = () => {
                     <AiFillYoutube size={22} className=" rounded-lg mx-1" />
                     <BsFacebook size={20} className="mx-1" />
                   </div>
-                  <div className="mx-2">
+                  <div className="mx-2 pb-5">
                     <div>
                       <img
                         src="https://b.zmtcdn.com/data/webuikit/9f0c85a5e33adb783fa0aef667075f9e1556003622.png"
@@ -134,7 +133,7 @@ const Footer = () => {
                       <img
                         src="https://b.zmtcdn.com/data/webuikit/23e930757c3df49840c482a8638bf5c31556001144.png"
                         alt=""
-                        className="h-10"
+                        className="h-10 "
                       />
                     </div>
                   </div>
@@ -142,7 +141,7 @@ const Footer = () => {
               </div>
             </div>
             <hr />
-            <div className=" my-10 ">
+            <div className=" lg:my-0 ">
               By continuing past this page, you agree to our Terms of Service,
               Cookie Policy, Privacy Policy and Content Policies. All trademarks
               are properties of their respective owners. 2008-2023 © Zomato™

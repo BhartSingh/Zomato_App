@@ -7,7 +7,7 @@ export const exploreOptions = [
   },
   {
     id: 2,
-    title: "Popular restaurant types near me",
+    title: "Popular restaurant near me",
     description:
       "• Bakeries near me • Bars near me • Beverage Shops near me • Bhojanalya near me • Cafés near me • Casual Dining near me • Clubs near me • Cocktail Bars near me • Confectioneries near me • Dessert Parlors near me • Dhabas near me • Fine Dining near me • Food Courts near me • Food Trucks near me • Irani Cafes near me • Kiosks near me • Lounges near me • Meat Shops near me • Microbreweries near me • Paan Shop near me • Pubs near me • Quick Bites near me • Sweet Shops near me",
   },

@@ -3,9 +3,9 @@ import { tabs } from "../../../data/TabData";
 
 const TabOptions = ({ activeTab, setActiveTab }) => {
   return (
-    <>
-      <div className="pt-5">
-        <h1 className="mx-72 text-gray-500 ">
+    <div className="md:mx-5">
+      <div className="pt-5 ">
+        <h1 className="lg:mx-72 mx-2 text-gray-500 ">
           <span className=" hover:text-red-500 cursor-pointer"> Home </span> /
           <span className=" hover:text-red-500 cursor-pointer"> India </span> /
           <span className=" hover:text-red-500 cursor-pointer">
@@ -16,7 +16,7 @@ const TabOptions = ({ activeTab, setActiveTab }) => {
         </h1>
       </div>
       <div className=" flex h-20 ">
-        <div className="mx-72 my-8 ">
+        <div className="lg:mx-72 mx-2  my-8 ">
           <div className="flex shadow-sm h-0 ">
             {tabs.map((tab) => {
               return (
@@ -27,7 +27,7 @@ const TabOptions = ({ activeTab, setActiveTab }) => {
                       activeTab === tab.name && "active-tab"
                     }`}
                   >
-                    <div className="flex  mx-5 ">
+                    <div className="flex lg:mx-5 mx-2 ">
                       <div className=" h-8 w-8 ">
                         <img
                           src={
@@ -39,7 +39,7 @@ const TabOptions = ({ activeTab, setActiveTab }) => {
                         />
                       </div>
 
-                      <div className="mx-5 pt-2 text-xl font-bold text-gray-600">
+                      <div className="mx-0 sm:mx-5  pt-2 text-xl font-bold text-gray-600">
                         {tab.name}
                       </div>
                     </div>
@@ -51,7 +51,7 @@ const TabOptions = ({ activeTab, setActiveTab }) => {
         </div>
       </div>
       <hr />
-    </>
+    </div>
   );
 };
 

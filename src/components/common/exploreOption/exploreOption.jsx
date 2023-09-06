@@ -15,7 +15,7 @@ const ExploreOption = () => {
   return (
     <div className="bg-gray-50">
       <section id="services" className="container mx-auto ">
-        <div id="service" className="flex mx-48  mt-14">
+        <div id="service" className="flex lg:mx-48  mt-14 mx-8">
           <span className="  font-semibold text-3xl mt-10" data-aos="fade-up">
             Explore options near me
           </span>

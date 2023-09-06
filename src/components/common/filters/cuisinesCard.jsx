@@ -6,27 +6,27 @@ import { CiSearch } from "react-icons/ci";
 const CuisinesCard = () => {
   return (
     <>
-      <div className="bg-black/70 h-[821px]">
-        <div className="mx-[450px] pt-40">
-          <div className=" shadow-lg  bg-white w-[500px] h-[520px] rounded-lg">
+      <div className="bg-black/70 h-[920px]">
+        <div className="lg:mx-[450px] pt-40">
+          <div className=" shadow-lg  bg-white lg:w-[500px] lg:h-[520px] rounded-lg">
             <div className="flex pt-4 ">
-              <h1 className="text-3xl font-bold mx-5">Cuisines</h1>
-              <div className="mx-[300px] my-1">
+              <h1 className="text-3xl font-bold mx-4">Cuisines</h1>
+              <div className="mx-56 lg:mx-[300px] sm:mx-[430px] md:mx-[580px] my-1">
                 <Link to="/">
                   <RiCloseLine size={30} />
                 </Link>
               </div>
             </div>
-            <div className="flex border-slate-300 placeholder-slate-400  mx-9 my-5 ">
+            <div className="flex border-slate-300 placeholder-slate-400  lg:mx-9 my-5 ">
               <input
                 type="text"
-                class="mt-1 h-12 px-5 py-2 bg-white border shadow-sm absolute  focus:outline-none  focus:border-sky-500 focus:ring-sky-500 block w-[430px] rounded-md sm:text-sm focus:ring-1"
+                class="mt-1 h-12 lg:w-[430px] px-5 py-2 bg-white border shadow-sm absolute  focus:outline-none  focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1"
                 placeholder=" Search here"
               />
               <div className="my-4 ">
                 <CiSearch size={20} className=" absolute " />
               </div>
-              <div className=" mx-[405px] my-4">
+              <div className=" lg:mx-[405px] mx-96 sm:mx-[650px] md:mx-[730px] my-4">
                 <RiCloseLine size={20} className=" absolute" />
               </div>
             </div>
@@ -177,7 +177,7 @@ const CuisinesCard = () => {
               </div>
             </div>
             <hr />
-            <div className="my-7 pl-64 ">
+            <div className="my-7 lg:pl-64 pl-48 sm:pl-96 md:pl-[550px] ">
               <Link to="/">
                 <button className="bg-gray-100 h-10 w-24 hover:bg-gray-300 rounded-lg ">
                   Clear all

@@ -10,9 +10,9 @@ const ExploreOptionCard = (props) => {
 
   return (
     <>
-      <div className="border-solid border-2 border-gray-300  bg-gradient-to-r  w-[1170px] pt-1 rounded-md group  mx-40 ">
+      <div className="border-solid border-2 border-gray-300  bg-gradient-to-r  w-full pt-1 rounded-md group   ">
         <div className="flex justify-start gap-2 p-2 shadow-lg bg-white rounded-md  ">
-          <div className="flex flex-col justify-start md:ml-2 xl:ml-5 ">
+          <div className="flex flex-col justify-start  ">
             <div
               className="flex justify-between cursor-pointer "
               onClick={handleToggleButton}
@@ -20,7 +20,7 @@ const ExploreOptionCard = (props) => {
               <h3 className="text-xl align-middle text-gray-600 py-2  ">
                 {title}
               </h3>
-              <div className="mx-0 text-xl my-3  cursor-pointer">
+              <div className=" text-xl my-3   cursor-pointer">
                 {open ? <BiSolidChevronUp /> : <BiSolidChevronDown />}
               </div>
             </div>

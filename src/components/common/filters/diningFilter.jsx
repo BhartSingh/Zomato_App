@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 const DiningFilter = () => {
   return (
-    <div className="mx-60 ">
-      <div className=" flex mx-3 my-7 cursor-pointer ">
+    <div className="lg:mx-60  ">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:flex mx-3 lg:my-7 cursor-pointer ">
         <div className="p-3 ">
           <div className="bg-white text-gray-500 hover:bg-gray-100  border-solid border-2 border-gray-300 h-7 w-full rounded-md flex ">
             <img
@@ -13,7 +13,7 @@ const DiningFilter = () => {
               className="h-5  mx-1 bg-black rounded-2xl"
             />
             <Link to="/diningfilter">
-              <h1 className="mx-2  ">Filters</h1>
+              <h1 className="mx-2 ">Filters</h1>
             </Link>
           </div>
         </div>
