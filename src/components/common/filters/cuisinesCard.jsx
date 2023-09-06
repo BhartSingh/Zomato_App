@@ -11,7 +11,7 @@ const CuisinesCard = () => {
           <div className=" shadow-lg  bg-white lg:w-[500px] lg:h-[520px] rounded-lg">
             <div className="flex pt-4 ">
               <h1 className="text-3xl font-bold mx-4">Cuisines</h1>
-              <div className="mx-56 lg:mx-[300px] sm:mx-[430px] md:mx-[580px] my-1">
+              <div className="mx-52 lg:mx-[300px] sm:mx-[430px] md:mx-[580px] my-1">
                 <Link to="/">
                   <RiCloseLine size={30} />
                 </Link>
@@ -26,7 +26,7 @@ const CuisinesCard = () => {
               <div className="my-4 ">
                 <CiSearch size={20} className=" absolute " />
               </div>
-              <div className=" lg:mx-[405px] mx-96 sm:mx-[650px] md:mx-[730px] my-4">
+              <div className=" lg:mx-[405px] mx-80 sm:mx-[650px] md:mx-[730px] my-4">
                 <RiCloseLine size={20} className=" absolute" />
               </div>
             </div>
@@ -177,7 +177,7 @@ const CuisinesCard = () => {
               </div>
             </div>
             <hr />
-            <div className="my-7 lg:pl-64 pl-48 sm:pl-96 md:pl-[550px] ">
+            <div className="my-7 lg:pl-64 pl-40 sm:pl-96 md:pl-[550px] ">
               <Link to="/">
                 <button className="bg-gray-100 h-10 w-24 hover:bg-gray-300 rounded-lg ">
                   Clear all

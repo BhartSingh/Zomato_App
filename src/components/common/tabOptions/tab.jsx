@@ -39,7 +39,7 @@ const TabOptions = ({ activeTab, setActiveTab }) => {
                         />
                       </div>
 
-                      <div className="mx-0 sm:mx-5  pt-2 text-xl font-bold text-gray-600">
+                      <div className="mx-0 sm:mx-5  sm:pt-2 text-xl font-bold text-gray-600">
                         {tab.name}
                       </div>
                     </div>

@@ -92,7 +92,7 @@ const NightFilterCard = () => {
           </div>
           <div>
             <hr />
-            <div className="my-1 lg:pl-[480px] pl-48">
+            <div className="my-1 lg:pl-[480px] pl-40">
               <Link to="/night">
                 <button className="bg-gray-100 h-10 w-24 hover:bg-gray-300 rounded-lg ">
                   Clear all
