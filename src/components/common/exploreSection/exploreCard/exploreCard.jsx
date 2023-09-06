@@ -28,7 +28,7 @@ const ExploreCard = () => {
                 <div className="flex ">
                   <h1>{item.title} </h1>
 
-                  <div className="pl-52 sm:pl-28 md:pl-44 lg:pl-52">
+                  <div className="pl-48 sm:pl-28 md:pl-44 lg:pl-52">
                     <span className="pl-1 my-1 text-sm bg-green-700 text-white font-bold rounded-lg">
                       {item.rating}
                     </span>
@@ -37,11 +37,11 @@ const ExploreCard = () => {
 
                 <div className="flex ">
                   <h3>{item.description}</h3>
-                  <span className=" pl-28 sm:pl-16 md:pl-24 lg:pl-28">
+                  <span className=" pl-20 sm:pl-16 md:pl-24 lg:pl-28">
                     {item.price}
                   </span>
                 </div>
-                <p className="pl-72 sm:pl-52 md:pl-64 lg:pl-72">{item.time}</p>
+                <p className="pl-64 sm:pl-52 md:pl-64 lg:pl-72">{item.time}</p>
               </div>
             </div>
           </div>
